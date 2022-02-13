@@ -1,6 +1,7 @@
 package com.javalearn.circle.entity;
 
-public class Point {
+public class
+Point {
     private final double xCoordinate;
     private final double yCoordinate;
 

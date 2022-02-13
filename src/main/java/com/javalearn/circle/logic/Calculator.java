@@ -6,15 +6,15 @@ import com.javalearn.circle.entity.Point;
 
 public class Calculator {
 
-    public static boolean isCircle (Point centre, double radius){
+    public boolean isCircle (Point centre, double radius){
         return radius > 0;
     }
 
-    public static double calculateArea(Circle circle){
+    public double calculateArea(Circle circle){
         return Math.PI * Math.pow(circle.getRadius(), 2);
     }
 
-    public static boolean isCrossingAreaOnDistance (Circle circle, double distance, CoordinateAxes axis){
+    public boolean isCrossingAreaOnDistance (Circle circle, double distance, CoordinateAxes axis){
 
         double minimalCirclePoint;
         double maximalCirclePoint;

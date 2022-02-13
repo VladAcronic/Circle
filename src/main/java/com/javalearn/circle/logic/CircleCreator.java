@@ -4,9 +4,9 @@ import com.javalearn.circle.entity.Circle;
 import com.javalearn.circle.entity.Point;
 
 public class CircleCreator {
-    private static final String DELIMITER = "\\s+";
+    private final String DELIMITER = "\\s+";
 
-    public static Circle createCircle (String line){
+    public Circle createCircle (String line){
 
         String[] tokensNumber = line.split(DELIMITER);
 
